@@ -226,4 +226,4 @@ If there weren't booster packs issues for the set you select, the program will n
 
 ## To do
 
-+ Download images in parallel.
++ Parse command line options.

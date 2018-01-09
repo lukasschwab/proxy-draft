@@ -19,7 +19,7 @@ $ brew install imagemagick
 $ brew install montage
 ```
 
-To install the go dependencies, run this from the project directory:
+To install the Go dependencies, run this from the project directory:
 
 ```
 $ go get -d ./...

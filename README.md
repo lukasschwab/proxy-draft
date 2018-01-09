@@ -1,6 +1,14 @@
 # proxy-draft
 
-This is a tool to 
+This is a tool to randomly generate realistic proxied booster packs for a Magic: the Gathering draft.
+
+After too many years of looking down my nose at MTG, I picked it up as a hobby this fall––if you haven't played it, I'd highly recommend giving it a shot. The game (or at least the more interactive strategies) has super high replay values.
+
+But some experiences in Magic are just too expensive for a casual player like myself. What if I want to play a sealed draft tournament with Alpha, which would cost tens of thousands of dollars in real life?
+
+Instead of selling organs, I can print out ("proxy") cards for this kind of competitive play. This program uses the [Magic: the Gathering API](https://docs.magicthegathering.io/#api_v1booster_get) to generate realistic booster packs.
+
+Run, print, draft, and play. Enjoy!
 
 ## Setup
 

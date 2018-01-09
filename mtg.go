@@ -10,8 +10,8 @@ import (
     "strconv"
 )
 
-const NUM_PLAYERS = 1
-const BOOSTERS_PER_PLAYER = 1
+const NUM_PLAYERS = 6
+const BOOSTERS_PER_PLAYER = 3
 const setCode = "KTK"
 
 // func downloadCardArtwork

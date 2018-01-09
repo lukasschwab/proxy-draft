@@ -35,6 +35,10 @@ Right now draft parameters are hard-coded into `mtg.go`.
 
 ## Set codes
 
+These are, roughly, the valid set codes for this program.
+
+If there weren't booster packs issues for the set you select, the program will not generate booster packs. I've removed a number of these sets already––for example, the Duel Decks––but haven't done so exhaustively.
+
 | Code | Set name |
 |:----|:---------|
 | UST | Unstable |
@@ -72,30 +76,6 @@ Right now draft parameters are hard-coded into `mtg.go`.
 | V10 | From the Vault: Relics |
 | V09 | From the Vault: Exiled |
 | DRB | From the Vault: Dragons |
-| EVG | Duel Decks: Elves vs. Goblins |
-| DDT | Duel Decks: Merfolk vs. Goblins |
-| DDS | Duel Decks: Mind vs. Might |
-| DDR | Duel Decks: Nissa vs. Ob Nixilis |
-| DDQ | Duel Decks: Blessed vs. Cursed |
-| DDP | Duel Decks: Zendikar vs. Eldrazi |
-| DDO | Duel Decks: Elspeth vs. Kiora |
-| DDN | Duel Decks: Speed vs. Cunning |
-| DDM | Duel Decks: Jace vs. Vraska |
-| DDL | Duel Decks: Heroes vs. Monsters |
-| DDK | Duel Decks: Sorin vs. Tibalt |
-| DDJ | Duel Decks: Izzet vs. Golgari |
-| DDI | Duel Decks: Venser vs. Koth |
-| DDH | Duel Decks: Ajani vs. Nicol Bolas |
-| DDG | Duel Decks: Knights vs. Dragons |
-| DDF | Duel Decks: Elspeth vs. Tezzeret |
-| DDE | Duel Decks: Phyrexia vs. the Coalition |
-| DDD | Duel Decks: Garruk vs. Liliana |
-| DDC | Duel Decks: Divine vs. Demonic |
-| DD3_JVC | Duel Decks Anthology, Jace vs. Chandra |
-| DD3_GVL | Duel Decks Anthology, Garruk vs. Liliana |
-| DD3_EVG | Duel Decks Anthology, Elves vs. Goblins |
-| DD3_DVD | Duel Decks Anthology, Divine vs. Demonic |
-| DD2 | Duel Decks: Jace vs. Chandra |
 | CNS | Magic: The Gathering—Conspiracy |
 | CN2 | Conspiracy: Take the Crown |
 | CMD | Magic: The Gathering-Commander |
@@ -220,7 +200,8 @@ Right now draft parameters are hard-coded into `mtg.go`.
 | 4ED | Fourth Edition |
 | 3ED | Revised Edition |
 | 2ED | Unlimited Edition |
-10E | Tenth Edition
+| 10E | Tenth Edition
 
 ## To do
 
++ Download images in parallel.

@@ -17,7 +17,7 @@ To install the go dependencies, run this from the project directory:
 $ go get -d ./...
 ```
 
-Make sure there exist subdirectories `boosters` and `cards`. `mtg.go` stores card images in `./cards` and outputs booster pack PDFs to `./boosters`.
+Make sure there exist subdirectories `boosters` and `cards`. `mtg-draft.go` stores card images in `./cards` and outputs booster pack PDFs to `./boosters`.
 
 ## Usage
 
@@ -31,7 +31,21 @@ $ bash cleanup.sh
 
 ### Draft
 
-Right now draft parameters are hard-coded into `mtg.go`.
+Right now draft parameters are hard-coded into `mtg-draft.go`. You may want to modify them to suit the draft you're running.
+
+| Constant              | Meaning                                                                                    |
+|:-----------------------|:--------------------------------------------------------------------------------------------|
+| `NUM_PLAYERS`         | Number of players in the draft; used to calculate number of packs to generate. Default: 6. |
+| `BOOSTERS_PER_PLAYER` | Number of booster packs to generate per player. Default: 3.                                |
+| `SET_CODE`            | The abbreviated "code" designation of the set to draft; see code/draft mappings below.     |
+
+Once you've selected the appropriate parameters, call the program from the command line.
+
+```
+$ go run mtg-draft.go
+```
+
+The resulting printable booster pack PDFs will be located in `/boosters`.
 
 ## Set codes
 

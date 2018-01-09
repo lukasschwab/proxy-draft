@@ -12,7 +12,7 @@ import (
 
 const NUM_PLAYERS = 6
 const BOOSTERS_PER_PLAYER = 3
-const setCode = "KTK"
+const SET_CODE = "KTK"
 
 // func downloadCardArtwork
 
@@ -22,7 +22,7 @@ func main () {
     for i := 0; i < NUM_PLAYERS * BOOSTERS_PER_PLAYER; i++ {
         command := exec.Command("montage")
         fmt.Println("BOOSTER", i)
-        cards, err := mtg.SetCode(setCode).GenerateBooster()
+        cards, err := mtg.SetCode(SET_CODE).GenerateBooster()
         if err != nil {
             fmt.Println(err)
         }

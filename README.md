@@ -35,6 +35,7 @@ Right now draft parameters are hard-coded into `mtg.go`.
 
 ## Set codes
 
++-----+----------+
 | UST | Unstable |
 | UNH | Unhinged |
 | UGL | Unglued |
